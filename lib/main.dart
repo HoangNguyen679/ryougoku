@@ -4,20 +4,11 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'dart:async';
 
-import 'package:logger/logger.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'router.dart';
 
 import 'shared_state/auth0_login_info.dart';
-
-final logger = Logger(
-  printer: PrettyPrinter(),
-);
-
-/// -------------------------------
-/// App
-/// -------------------------------
 
 Future main() async {
   await dotenv.load(fileName: ".env.development");

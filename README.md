@@ -37,19 +37,21 @@ Below is stack I used and linked I consulted
 ### QR Code
 
 - [Good post](https://itnext.io/qr-code-in-flutter-9b7072343598) about QR Code handlers.
-- This example just scan QR code, display it and random generate a QR code.
-- I also want to try send request when a QR code is scanned and save a generated QR code. (Just note here for memo)
+- This example:
+  - scan QR code and display its content
+  - random generate a QR code and save to gallery
+- I also want to try send request when a QR code is scanned. (Just note here for memo)
 
 ## Result Images
 
 <p align="middle">
-<img src="source_image/login.jpeg" alt="login" width="250"/> 
-<img src="source_image/menu.jpeg" alt="menu" width="250"/>
-<img src="source_image/generated_qr_code.jpeg" alt="generated_qr_code" width="250"/>
+  <img src="source_image/login.jpeg" alt="login" width="250"/>
+  <img src="source_image/menu.jpeg" alt="menu" width="250"/>
+  <img src="source_image/generated_qr_code.jpeg" alt="generated_qr_code" width="250"/>
 </p>
 <p align="middle">
-<img src="source_image/scan_qr_code.jpeg" alt="scan_qr_code" width="250"/>
-<img src="source_image/scanned_qr_code.jpeg" alt="scanned_qr_code" width="250"/>
-<img src="source_image/profile.jpeg" alt="profile" width="250"/>
+  <img src="source_image/scan_qr_code.jpeg" alt="scan_qr_code" width="250"/>
+  <img src="source_image/scanned_qr_code.jpeg" alt="scanned_qr_code" width="250"/>
+  <img src="source_image/profile.jpeg" alt="profile" width="250"/>
 </p>
 
